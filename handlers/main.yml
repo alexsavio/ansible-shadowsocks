@@ -1,4 +1,5 @@
 ---
 - name: Restart Shadowsocks
-  service: name=shadowsocks
-           state=restarted
+  service:
+    name: shadowsocks
+    state: restarted
